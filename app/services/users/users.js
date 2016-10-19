@@ -8,7 +8,9 @@
     var Users = {};
 
     // Users.method = function() {};
-
+    Users.all = function() {
+      return [{id:1,name:"Jesus"},{id:2,name:"Roberto"}];
+    };
     return Users;
   });
 })();
